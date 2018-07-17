@@ -10,7 +10,10 @@ class App < Sinatra::Base
   
   get '/square/:number' do 
      end 
-  
+  get '/' do
+    "Hello World"
+  end
+end
   
   
 end 
